@@ -1,0 +1,45 @@
+{
+  "aviso": "Descrições educativas e genéricas. Não trazem taxas, tetos ou limites vigentes: esses valores mudam e devem ser confirmados na instituição ou no órgão oficial.",
+  "linhas": [
+    {
+      "id": "linha_sbpe",
+      "nome": "SBPE (recursos da poupança)",
+      "tags": ["sbpe", "poupanca", "linha tradicional", "financiamento de mercado", "bancos"],
+      "para_quem": "Quem compra imóvel residencial com recursos de financiamento habitacional dos bancos, dentro das regras do SFH.",
+      "caracteristicas": "Linha tradicional oferecida por bancos públicos e privados, com juros de mercado, possibilidade de uso do FGTS e financiamento de parte do valor do imóvel.",
+      "atencao": "Percentual financiado, taxas e teto do imóvel variam por banco e mudam com as regras vigentes."
+    },
+    {
+      "id": "linha_mcmv",
+      "nome": "Minha Casa Minha Vida",
+      "tags": ["minha casa minha vida", "mcmv", "programa habitacional", "subsidio", "baixa renda"],
+      "para_quem": "Famílias dentro das faixas de renda definidas pelo programa, na compra do primeiro imóvel ou conforme regras do programa.",
+      "caracteristicas": "Juros reduzidos e, em certas faixas, subsídio do governo; limites de renda e de valor do imóvel definem o enquadramento.",
+      "atencao": "Faixas e tetos são atualizados com frequência. Consulte Caixa ou gov.br para condições vigentes."
+    },
+    {
+      "id": "linha_sfi",
+      "nome": "SFI (recursos livres)",
+      "tags": ["sfi", "recursos livres", "imovel acima do teto", "alto valor", "carteira hipotecaria"],
+      "para_quem": "Quem compra imóveis de valor mais alto ou que não se enquadram nas regras do SFH.",
+      "caracteristicas": "Maior liberdade de contratação entre banco e cliente; em geral não permite uso do FGTS.",
+      "atencao": "Pode ter taxas e exigências diferentes das linhas do SFH. Compare o CET."
+    },
+    {
+      "id": "linha_construcao",
+      "nome": "Financiamento para construção ou reforma",
+      "tags": ["construcao", "construir", "terreno", "reforma", "material de construcao", "obra"],
+      "para_quem": "Quem já tem terreno e quer construir, ou quer financiar reforma e ampliação.",
+      "caracteristicas": "O dinheiro costuma ser liberado em etapas conforme o andamento da obra, medido por vistoria do banco.",
+      "atencao": "Regras de documentação do terreno e de cronograma são específicas. Confirme com a instituição."
+    },
+    {
+      "id": "linha_home_equity",
+      "nome": "Crédito com garantia de imóvel (home equity)",
+      "tags": ["home equity", "credito com garantia de imovel", "emprestimo com imovel", "refinanciamento de imovel"],
+      "para_quem": "Quem já é dono de um imóvel e quer um empréstimo usando esse imóvel como garantia, sem ser uma compra.",
+      "caracteristicas": "Juros geralmente menores que os de um empréstimo pessoal, mas o imóvel fica em garantia da dívida.",
+      "atencao": "Não é um financiamento para comprar imóvel. Em caso de inadimplência o imóvel pode ser perdido."
+    }
+  ]
+}

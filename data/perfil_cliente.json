@@ -1,0 +1,18 @@
+{
+  "aviso": "Perfil FICTÍCIO, usado apenas para demonstração.",
+  "nome": "Mariana",
+  "idade": 32,
+  "renda_bruta_mensal": 8500.00,
+  "nivel_conhecimento": "iniciante",
+  "objetivo": "Comprar o primeiro apartamento para morar",
+  "valor_imovel_alvo": 400000.00,
+  "entrada_disponivel": 60000.00,
+  "saldo_fgts": 25000.00,
+  "prazo_desejado_anos": 30,
+  "possui_dividas": false,
+  "possui_reserva_emergencia": true,
+  "preferencias": {
+    "tom": "simples e sem jargão",
+    "quer_exemplos_numericos": true
+  }
+}

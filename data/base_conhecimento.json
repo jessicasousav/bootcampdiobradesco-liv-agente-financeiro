@@ -1,0 +1,196 @@
+{
+  "metadados": {
+    "descricao": "Base de conhecimento educativa sobre financiamento imobiliário no Brasil, usada pela Liv.",
+    "versao": "1.0",
+    "atualizada_em": "2026-09",
+    "aviso": "Conteúdo educativo e generalista. Taxas, tetos e regras variam por instituição e mudam com o tempo; a confirmação final é sempre com o banco ou órgão oficial."
+  },
+  "conceitos": [
+    {
+      "id": "financiamento_basico",
+      "titulo": "O que é financiamento imobiliário",
+      "tags": ["financiamento", "imovel", "financiar", "como funciona", "alienacao fiduciaria", "garantia", "banco emprestimo"],
+      "texto": "No financiamento imobiliário, você paga uma parte do imóvel à vista (a entrada) e o banco empresta o restante, que você devolve em parcelas mensais com juros. Enquanto a dívida não termina, o imóvel fica como garantia do banco por meio da alienação fiduciária: você usa e mora no imóvel, mas a propriedade plena só é sua depois de quitar o contrato."
+    },
+    {
+      "id": "entrada",
+      "titulo": "Entrada do financiamento",
+      "tags": ["entrada", "sinal", "percentual financiado", "quanto financiar", "20%", "dar de entrada", "financiar 100%", "financiar tudo", "sem entrada", "financiar todo o valor"],
+      "texto": "A entrada é a parte do valor do imóvel que você paga com recursos próprios (dinheiro guardado, FGTS, venda de outro bem). Em linhas comuns de mercado o banco costuma financiar até cerca de 80% do valor de avaliação ou de compra (o menor), o que exige em torno de 20% de entrada, mas o percentual varia por banco, linha e sistema de amortização. Quanto maior a entrada, menor o valor financiado, a parcela e o total de juros."
+    },
+    {
+      "id": "amortizacao",
+      "titulo": "O que é amortização",
+      "tags": ["amortizacao", "amortizar", "o que e amortizacao", "abater a divida", "reduzir o saldo devedor"],
+      "texto": "Amortização é a parte da parcela que realmente diminui a sua dívida (o saldo devedor). O resto da parcela paga juros e encargos. No começo do contrato, a fatia de juros é maior; com o tempo, a amortização ganha espaço. O SAC e a Tabela Price são as duas formas mais comuns de organizar essa amortização."
+    },
+    {
+      "id": "sac",
+      "titulo": "SAC - Sistema de Amortização Constante",
+      "tags": ["sac", "amortizacao constante", "parcela decrescente", "parcelas caem"],
+      "texto": "No SAC, a parte do saldo devedor que você amortiza é a mesma todo mês. Como os juros incidem sobre um saldo que vai diminuindo, a parcela começa mais alta e vai caindo ao longo do contrato. Costuma gerar o menor total de juros pago, mas exige renda maior no início."
+    },
+    {
+      "id": "price",
+      "titulo": "Tabela Price",
+      "tags": ["price", "tabela price", "parcelas iguais", "parcela fixa", "prestacao fixa"],
+      "texto": "Na Tabela Price as parcelas têm o mesmo valor na fórmula, o que facilita o planejamento. No começo, grande parte da parcela é juros e a amortização é pequena, então o saldo devedor cai devagar e o total de juros costuma ser maior que no SAC. A parcela inicial é menor que a do SAC, o que pode ajudar na análise de renda. Se o contrato tiver indexador (como a TR), o valor em reais pode variar ao longo do tempo."
+    },
+    {
+      "id": "sac_vs_price",
+      "titulo": "SAC ou Price: qual escolher",
+      "tags": ["sac ou price", "diferenca sac price", "sac vs price", "qual melhor sistema", "comparar sac price"],
+      "texto": "SAC: parcela inicial mais alta que cai com o tempo, menor total de juros, saldo devedor cai mais rápido. Price: parcela inicial menor e mais previsível, total de juros maior. Uma forma de decidir: se a renda comporta a parcela inicial do SAC, ele tende a sair mais barato no total; se a parcela do SAC pesa demais no orçamento, a Price pode ser o caminho para caber na renda. Vale simular os dois com a mesma taxa e o mesmo prazo."
+    },
+    {
+      "id": "taxa_juros",
+      "titulo": "Taxa de juros: nominal, efetiva, ao mês e ao ano",
+      "tags": ["taxa de juros", "juros", "taxa nominal", "taxa efetiva", "ao ano", "ao mes", "a.a.", "a.m.", "juros compostos"],
+      "texto": "A taxa de juros é o preço do dinheiro emprestado. Ela pode ser apresentada ao ano (a.a.) ou ao mês (a.m.). Taxa nominal é a divulgada no contrato, tipicamente ao ano, dividida por 12 para achar a mensal; a taxa efetiva considera a capitalização dos juros e por isso é um pouco maior. Para converter efetiva anual em mensal usa-se (1 + taxa anual)^(1/12) - 1. Compare sempre taxas na mesma base."
+    },
+    {
+      "id": "cet",
+      "titulo": "CET - Custo Efetivo Total",
+      "tags": ["cet", "custo efetivo total", "custo total", "quanto vai custar", "comparar bancos"],
+      "texto": "O CET reúne, em uma única taxa anual, todos os custos do financiamento: juros, seguros, tarifas e tributos. É o melhor indicador para comparar propostas, porque duas ofertas com o mesmo juro podem ter custos finais diferentes. Peça o CET por escrito e compare CET com CET, não apenas a taxa de juros."
+    },
+    {
+      "id": "seguros_mip_dfi",
+      "titulo": "Seguros do financiamento: MIP e DFI",
+      "tags": ["seguro", "mip", "dfi", "morte invalidez", "danos fisicos", "seguro prestamista"],
+      "texto": "Os financiamentos imobiliários incluem dois seguros obrigatórios, cobrados dentro da parcela mensal. O MIP (Morte e Invalidez Permanente) quita ou reduz a dívida se o mutuário morrer ou ficar inválido. O DFI (Danos Físicos ao Imóvel) cobre danos como incêndio e desmoronamento. O valor depende da idade, do saldo devedor e do imóvel, e costuma diminuir conforme a dívida cai."
+    },
+    {
+      "id": "tarifas_encargos",
+      "titulo": "Tarifas e encargos mensais",
+      "tags": ["tarifa", "taxa de administracao", "encargos", "parcela total", "o que compoe a parcela", "composicao da parcela"],
+      "texto": "A parcela mensal costuma ter: amortização + juros + seguros (MIP e DFI) + tarifa de administração do contrato, quando a instituição cobra. Por isso a parcela final é maior que a soma de amortização e juros. Ao simular, confirme se o valor apresentado já inclui os encargos."
+    },
+    {
+      "id": "indexadores_tr",
+      "titulo": "Indexadores: TR, IPCA e taxa fixa",
+      "tags": ["tr", "taxa referencial", "ipca", "indexador", "correcao monetaria", "pos fixado", "pre fixado", "taxa fixa"],
+      "texto": "Além dos juros, o saldo devedor pode ser corrigido por um indexador. Nos contratos mais comuns a correção é pela TR (Taxa Referencial), somada à taxa de juros; em algumas ofertas usa-se o IPCA, que acompanha a inflação e pode pesar mais. Em contratos com indexador, a parcela em reais pode subir ao longo do tempo mesmo com juros fixos. Pergunte qual indexador o contrato usa e como ele é aplicado."
+    },
+    {
+      "id": "comprometimento_renda",
+      "titulo": "Quanto da renda a parcela pode comprometer",
+      "tags": ["renda", "renda minima", "30%", "comprometimento", "quanto ganhar", "capacidade de pagamento", "parcela cabe no bolso", "salario"],
+      "texto": "Como regra geral de mercado, a parcela inicial não deve ultrapassar cerca de 30% da renda bruta mensal (individual ou familiar). Para saber a renda mínima aproximada, divida a parcela por 0,30: uma parcela de R$ 3.000 pede renda em torno de R$ 10.000. Cada instituição tem sua política, e é prudente considerar também suas outras dívidas e despesas fixas."
+    },
+    {
+      "id": "composicao_renda",
+      "titulo": "Composição de renda com outra pessoa",
+      "tags": ["composicao de renda", "somar renda", "co-proprietario", "conjuge", "marido", "esposa", "casal", "comprar junto"],
+      "texto": "É possível somar a renda de duas ou mais pessoas (cônjuge, familiar, sócio) para aumentar o valor aprovado e a parcela suportada. Todos os participantes passam por análise de crédito e costumam constar no contrato e na matrícula do imóvel. Se uma delas tiver restrição no nome ou renda instável, isso pode afetar a aprovação, por isso convém avaliar a situação de cada um."
+    },
+    {
+      "id": "prazo_idade",
+      "titulo": "Prazo e idade máxima",
+      "tags": ["prazo", "anos", "meses", "420 meses", "35 anos", "idade", "tempo de pagamento", "prazo maximo"],
+      "texto": "O prazo máximo dos financiamentos costuma chegar a 35 anos (420 meses), e muitas instituições limitam a idade do proponente ao fim do contrato (algo em torno de 80 anos e 6 meses). Prazo maior reduz a parcela, mas aumenta muito o total de juros pagos. Prazo menor faz o contrário. Simule prazos diferentes para achar o equilíbrio entre parcela confortável e custo total."
+    },
+    {
+      "id": "documentos",
+      "titulo": "Documentos necessários",
+      "tags": ["documentos", "documentacao", "papeis", "comprovante", "o que levar", "certidao", "matricula"],
+      "texto": "Em geral são pedidos: documento de identidade e CPF; comprovante de estado civil (certidão de casamento, quando for o caso); comprovante de residência; comprovantes de renda (holerites, declaração de imposto de renda, extratos, pró-labore ou similares, conforme o tipo de trabalho); e documentos do imóvel (matrícula atualizada, certidões e, para vendedor, documentos pessoais e certidões negativas). A lista exata varia por banco e por perfil."
+    },
+    {
+      "id": "etapas",
+      "titulo": "Passo a passo do financiamento",
+      "tags": ["etapas", "passo a passo", "processo", "como comprar", "fluxo", "como fazer", "primeiros passos", "por onde comecar"],
+      "texto": "Etapas típicas: 1) organizar orçamento e entrada; 2) simular em mais de um banco e comparar o CET; 3) escolher o imóvel e formalizar a proposta; 4) enviar documentos para análise de crédito; 5) o banco avalia o imóvel e a documentação; 6) aprovação do crédito; 7) assinatura do contrato; 8) registro do contrato no cartório de imóveis; 9) liberação do valor ao vendedor. Só depois do registro a operação fica completa."
+    },
+    {
+      "id": "custos_extras",
+      "titulo": "Custos além da entrada",
+      "tags": ["custos extras", "itbi", "escritura", "registro", "cartorio", "despesas", "taxa de avaliacao", "custos adicionais", "gastos"],
+      "texto": "Além da entrada, reserve dinheiro para: ITBI (imposto municipal sobre a transmissão do imóvel), escritura e registro em cartório, taxa de avaliação do imóvel e eventuais tarifas do banco. Como ordem de grandeza, muitas pessoas reservam algo entre 3% e 5% do valor do imóvel, mas varia bastante conforme a cidade e a instituição. Depois da compra ainda há mudança, mobília e, se for o caso, condomínio e IPTU."
+    },
+    {
+      "id": "fgts",
+      "titulo": "Uso do FGTS no financiamento",
+      "tags": ["fgts", "fundo de garantia", "usar fgts", "entrada com fgts", "amortizar com fgts", "saldo fgts"],
+      "texto": "O FGTS pode ser usado, em geral, para dar entrada, amortizar o saldo devedor ou abater parcelas. Condições habituais: mínimo de 3 anos de trabalho sob o regime do FGTS (somando empregos), imóvel residencial urbano para moradia própria, financiamento dentro do SFH e não possuir outro financiamento ativo no SFH nem imóvel residencial concluído na mesma região onde mora ou trabalha. Tetos de valor e demais regras mudam; confirme na Caixa ou no banco."
+    },
+    {
+      "id": "sfh_sfi",
+      "titulo": "SFH e SFI",
+      "tags": ["sfh", "sfi", "sistema financeiro da habitacao", "sistema financeiro imobiliario", "teto", "valor maximo do imovel"],
+      "texto": "O SFH (Sistema Financeiro da Habitação) reúne financiamentos com regras definidas, como teto de valor do imóvel, limites de juros e possibilidade de usar FGTS. O SFI (Sistema Financeiro Imobiliário) é mais livre e costuma ser usado para imóveis acima do teto do SFH, geralmente sem uso de FGTS. Qual sistema se aplica depende do valor do imóvel e da linha escolhida."
+    },
+    {
+      "id": "mcmv",
+      "titulo": "Minha Casa Minha Vida",
+      "tags": ["minha casa minha vida", "mcmv", "programa do governo", "subsidio", "faixa de renda", "primeira casa", "juros reduzidos"],
+      "texto": "O Minha Casa Minha Vida é um programa habitacional do governo federal que oferece condições diferenciadas, como juros reduzidos e, em algumas faixas, subsídio para famílias dentro de limites de renda e de valor do imóvel. Faixas, tetos e taxas são atualizados com frequência, então consulte a Caixa ou o portal gov.br para os valores vigentes antes de decidir."
+    },
+    {
+      "id": "amortizacao_extraordinaria",
+      "titulo": "Amortização extraordinária (pagar antecipado)",
+      "tags": ["amortizar", "amortizacao extraordinaria", "antecipar parcelas", "quitar antes", "pagar adiantado", "reduzir prazo", "reduzir parcela", "quitacao antecipada"],
+      "texto": "Você pode antecipar pagamentos com recursos próprios ou FGTS. Ao amortizar o saldo devedor, em geral escolhe-se entre reduzir o prazo (terminar antes) ou reduzir o valor da parcela. Reduzir o prazo costuma gerar maior economia total de juros; reduzir a parcela alivia o orçamento mensal. Quanto mais cedo no contrato, maior o efeito."
+    },
+    {
+      "id": "portabilidade",
+      "titulo": "Portabilidade do financiamento",
+      "tags": ["portabilidade", "trocar de banco", "transferir financiamento", "juros menores", "refinanciar", "mudar de banco"],
+      "texto": "A portabilidade permite transferir seu financiamento para outra instituição que ofereça condições melhores, como taxa menor. É um direito do consumidor: você solicita ao novo banco, que pede o saldo ao atual, e o banco atual pode fazer uma contraproposta. Compare o CET antes e depois e considere possíveis custos de cartório e avaliação para saber se compensa."
+    },
+    {
+      "id": "inadimplencia",
+      "titulo": "O que acontece se eu atrasar as parcelas",
+      "tags": ["atraso", "atrasar", "desempregado", "desemprego", "perdi o emprego", "perco a casa", "inadimplencia", "nao consigo pagar", "leilao", "perder o imovel", "multa", "juros de mora", "renegociar"],
+      "texto": "Atrasar a parcela gera multa e juros de mora, e o nome pode ser negativado. Como o imóvel está em alienação fiduciária, com atraso prolongado o banco pode iniciar o processo de consolidação da propriedade e levar o imóvel a leilão. Ao sentir que vai ter dificuldade, procure o banco antes de atrasar para renegociar prazo ou condições. Para casos específicos, vale buscar orientação jurídica ou o Procon."
+    },
+    {
+      "id": "score_credito",
+      "titulo": "Score e análise de crédito",
+      "tags": ["score", "nota de credito", "serasa", "spc", "nome sujo", "restricao", "analise de credito", "aprovacao", "negativado"],
+      "texto": "O banco analisa renda, estabilidade, histórico de pagamentos, dívidas em aberto e restrições no CPF. Um bom histórico de pagamentos e poucas dívidas aumentam a chance de aprovação e podem ajudar a obter condições melhores. Para se preparar: mantenha contas em dia, quite pendências, evite novos empréstimos e parcelamentos antes de pedir o financiamento e não comprometa a renda além do necessário."
+    },
+    {
+      "id": "alugar_ou_financiar",
+      "titulo": "Alugar ou financiar",
+      "tags": ["alugar ou financiar", "aluguel", "vale a pena financiar", "comprar ou alugar", "melhor alugar"],
+      "texto": "Não existe resposta universal. Compare: custo mensal do aluguel versus parcela mais condomínio, IPTU e manutenção; o que a entrada renderia se ficasse investida; quanto tempo você pretende ficar no imóvel (custos de compra e venda pesam em prazos curtos); e o valor emocional e de estabilidade de ter a casa própria. Uma simulação com números reais da sua situação ajuda mais do que regras de bolso."
+    },
+    {
+      "id": "consorcio",
+      "titulo": "Consórcio ou financiamento",
+      "tags": ["consorcio", "carta de credito", "contemplacao", "lance", "consorcio imobiliario"],
+      "texto": "No consórcio não há juros, mas há taxa de administração, fundo de reserva e seguro. Você só recebe a carta de crédito quando é contemplado, por sorteio ou lance, então não há data garantida. No financiamento você usa o imóvel logo, mas paga juros. O consórcio serve melhor a quem planeja a longo prazo e não tem pressa; o financiamento, a quem precisa comprar agora."
+    },
+    {
+      "id": "reserva_emergencia",
+      "titulo": "Reserva de emergência antes de financiar",
+      "tags": ["reserva de emergencia", "reserva", "imprevistos", "poupanca", "seguranca financeira", "ficar sem dinheiro"],
+      "texto": "Evite usar todo o dinheiro guardado na entrada. Mantenha uma reserva de emergência (muitos especialistas sugerem de 3 a 6 meses de despesas) para imprevistos e para os custos de mudança e cartório, sem correr risco de atrasar parcelas. Um financiamento dura décadas, e a parcela precisa continuar cabendo mesmo em meses difíceis."
+    },
+    {
+      "id": "avaliacao_imovel",
+      "titulo": "Avaliação do imóvel pelo banco",
+      "tags": ["avaliacao", "laudo", "engenheiro", "valor de avaliacao", "avaliacao do imovel", "banco avalia"],
+      "texto": "Antes de aprovar, o banco contrata uma avaliação do imóvel, que confere o valor, o estado e a regularidade da documentação. O valor financiado é calculado sobre o menor valor entre a compra e a avaliação. Se o laudo for menor que o preço combinado, a diferença precisa sair da sua entrada. Imóveis com pendências documentais podem ter o crédito negado."
+    },
+    {
+      "id": "como_comparar_propostas",
+      "titulo": "Como comparar propostas de bancos",
+      "tags": ["comparar propostas", "qual banco escolher", "escolher banco", "simulacao", "negociar", "comparar", "melhor proposta"],
+      "texto": "Simule em pelo menos três instituições usando o mesmo valor de imóvel, entrada, prazo e sistema de amortização. Compare o CET, a parcela inicial, o total pago ao final, o indexador e as tarifas. Peça as propostas por escrito e use a melhor delas para negociar com as demais. Relacionamento com o banco (conta, salário) às vezes reduz a taxa."
+    },
+    {
+      "id": "glossario",
+      "titulo": "Glossário rápido",
+      "tags": ["glossario", "significado", "o que significa", "termos", "saldo devedor", "amortizacao", "matricula", "ltv", "mutuario", "alienacao fiduciaria"],
+      "texto": "Amortização: parte da parcela que reduz a dívida. Saldo devedor: quanto ainda falta pagar. Mutuário: quem toma o financiamento. Alienação fiduciária: o imóvel fica em garantia do banco até a quitação. Matrícula: 'certidão de nascimento' do imóvel no cartório, onde constam dono e ônus. ITBI: imposto municipal da compra. CET: custo efetivo total. MIP e DFI: seguros obrigatórios. LTV: percentual do valor do imóvel que é financiado."
+    },
+    {
+      "id": "limites_do_agente",
+      "titulo": "O que a Liv faz e não faz",
+      "tags": ["quem e voce", "o que voce faz", "voce e um banco", "limites", "ajuda", "para que serve", "voce pode"],
+      "texto": "A Liv é uma educadora financeira virtual: explica conceitos de financiamento imobiliário, faz simulações com fórmulas padrão de SAC e Price e ajuda a comparar caminhos. Ela não aprova crédito, não vende produtos, não recomenda bancos, não conhece as taxas de hoje de nenhuma instituição e não substitui a simulação oficial do banco nem a orientação de um profissional."
+    }
+  ]
+}
